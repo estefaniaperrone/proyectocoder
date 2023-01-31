@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+  
+}
+
+
+
+
+    
+
+.barra_uno{
+    background-color: rgb(24, 24, 24);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 2rem 2rem; 
+       margin-bottom: 100px;
+     
+ }
+ 
+ .barra_dos{
+     
+         background-color: rgb(24, 24, 24);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding:3rem 2rem;  ;
+            margin-bottom: 100px;
+            margin: 0;
+          
+      } 
+ 
+ .nav_menu ul{
+     display: flex;
+     align-content: center;
+     
+  
+ }
+ .nav_menu li{
+     margin-right: 1.5rem;
+ }
+ .nav_menu ul li a{
+     color: rgb(239, 235, 235);
+     font-family: 'Cormorant Garamond', serif;
+     font-size: 20px;
+     
+ }
+ 
+ 
+ .nav_menu a:hover{
+     color: antiquewhite;
+     border: 2px solid wheat ;
+     padding: .25rem .75rem;
+     border-radius: .2rem;
+ }
+ .div_uno img{
+     width: 20%;
+ }
+ 
+
+
+.img-fluid{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+<!--galeria-->
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.imagengaleria{
+    width: 100%;
+}
+
+
+.row{
+    display: flex;
+}
+
+
+
+   
+.galeria{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.galeria img{
+    width: 30%;
+    margin: 5px;
+}
+.contenedor_uno{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.contenedor_uno h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.contenedor_uno p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.contenedor_uno a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    will-change: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.contenedor_uno a i{
+    color: aqua;
+    margin-right: 10px;
+}
+.contenedor_uno form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid rgb(20, 64, 22);
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+
+}
+
+
+.grid_containeruno{
+    display: grid;
+
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-areas: "menu"
+                        " body" "body"
+                        "piepagina"
+
+                
+
+}
+
+.barra_dosdos{
+    grid-area:menu;
+     
+        background-color: rgb(24, 24, 24);
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding:3rem 2rem;  ;
+           margin-bottom: 100px;
+           margin: 0;
+         
+     } 
+
+.nav_menu ul{
+    display: flex;
+    align-content: center;
+    
+ 
+}
+.nav_menu li{
+    margin-right: 1.5rem;
+}
+.nav_menu ul li a{
+    color: rgb(239, 235, 235);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    
+
+
+
+.nav_menu a:hover{
+    color: antiquewhite;
+    border: 2px solid wheat ;
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+
+@media screen and (max-width:576px){
+}
+@media screen and (max-width:992){
+    
+} 
+    
+
+
+
